@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "281653864698",
+    "project_id": "nufianapp",
+    "storage_bucket": "nufianapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281653864698:android:8dcc55a1827ecd50af0143",
+        "android_client_info": {
+          "package_name": "com.example.nufianapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfd_jGPDu4P3rqKlC9-JnmBKQGeckZu80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

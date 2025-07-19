@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nufian Connect</string>
+    <string name="onboarding_title1">Selamat datang di Nufian Connect!</string>
+    <string name="onboarding_title2">Temukan mahasiswa yang sefrekuensi</string>
+    <string name="onboarding_title3">Jelajahi proyek dan berbagai ide</string>
+    <string name="onboarding_body1">Sebuah cara yang mudah dan simpel untuk tetap terkoneksi dan berkolaborasi dengan alumni dan mahasiswa STT-NF.</string>
+    <string name="onboarding_body2">Cari pengguna dari hobi, jurusan, atau minat kolaborasi. Saling mengenal satu sama lain belum pernah lebih mudah sebelumnya!</string>
+    <string name="onboarding_body3">Bagikan cerita, cari riset atau proyek yang menginspirasi, lanjutkan, atau mulai sesuatu yang baru!</string>
+    <string name="onboarding_end">Jadi bagian dari komunitas, hari ini</string>
+    <string name="login_title">Masuk</string>
+    <string name="login_desc">Silakan masukkan data akunmu ke dalam kolom yang sesuai.</string>
+    <string name="regist_title">Mari kita mulai.</string>
+    <string name="regist_desc">"Tinggal masukkan saja email kampus NF mu, "</string>
+</resources>

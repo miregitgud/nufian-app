@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Nufian Connect</string>
+    <string name="onboarding_title1">Welcome to Nufian Connect!</string>
+    <string name="onboarding_title2">Find students of your interest</string>
+    <string name="onboarding_title3">Explore projects and ideas</string>
+    <string name="onboarding_body1">An easy and simple way to stay connected and collaborate with alumni and students of STT-NF.</string>
+    <string name="onboarding_body2">Look for users by hobbies, study program, or collaboration interests. Getting to know each other has never been easier!</string>
+    <string name="onboarding_body3">Share stories, find inspiring research or projects, continue where others left off, or start a new one!</string>
+    <string name="onboarding_end">Be part of the community, today.</string>
+    <string name="login_title">Login</string>
+    <string name="login_desc">Please input your account details into the corresponding fields.</string>
+    <string name="regist_title">Let\'s get started.</string>
+    <string name="regist_desc">Just type in your NF campus email, and we\'ll do the rest!</string>
+    <string name="app_label_subject">Title\n</string>
+    <string name="app_label_content">Content</string>
+    <string name="failed_fetch_details_news">Failed to fetch detail news</string>
+    <string name="description_image_pattern">Description</string>
+    <string name="description_image_forum_detail">image forum detail</string>
+    <string name="app_icon_share">Share</string>
+    <string name="description_image_search">Image search</string>
+</resources>

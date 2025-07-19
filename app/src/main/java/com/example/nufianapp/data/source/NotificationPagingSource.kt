@@ -1,0 +1,39 @@
+package com.example.nufianapp.data.source
+
+import androidx.paging.PagingSource
+import androidx.paging.PagingState
+import com.example.nufianapp.data.model.Notification
+import com.google.firebase.firestore.DocumentSnapshot
+import com.google.firebase.firestore.Query
+import kotlinx.coroutines.tasks.await
+import javax.inject.Inject
+
+class NotificationPagingSource @Inject constructor(
+    private val query: Query
+) : PagingSource<DocumentSnapshot, Notification>() {
+
+    override fun getRefreshKey(state: PagingState<DocumentSnapshot, Notification>): DocumentSnapshot? {
+        return state.anchorPosition?.let { anchorPosition ->
+            state.closestPageToPosition(anchorPosition)?.prevKey
+                ?: state.closestPageToPosition(anchorPosition)?.nextKey
+        }
+    }
+
+    override suspend fun load(params: LoadParams<DocumentSnapshot>): LoadResult<DocumentSnapshot, Notification> {
+        return try {
+            val currentPage = params.key?.let {
+                query.startAfter(it).limit(params.loadSize.toLong()).get().await()
+            } ?: query.limit(params.loadSize.toLong()).get().await()
+
+            val lastVisible = currentPage.documents.lastOrNull()
+
+            LoadResult.Page(
+                data = currentPage.toObjects(Notification::class.java),
+                prevKey = null,
+                nextKey = lastVisible
+            )
+        } catch (e: Exception) {
+            LoadResult.Error(e)
+        }
+    }
+}
