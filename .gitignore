@@ -14,4 +14,3 @@
 .cxx
 local.properties
 app/src/main/assets/service-account-file.json
-app/google-services.json
