@@ -9,7 +9,7 @@ Nufian Connect is a community-based mobile application that aims to solve proble
 
 ## Features
 + Onboarding, Welcomes new users to the app, contains brief description and text about the app and it's goals.
-+ Authentication, utilizes 'firebase authentication' and secure registering logics, ensuring each accounts are meant only for the desired users.
++ Authentication, utilizes ==firebase authentication== and secure registering logics, ensuring each accounts are meant only for the desired users.
 + Profile Creation, giving access to newly registered users to complete their profiles with, but not limited to, mandatory identification.
 + Welcome screen, pretty self mandatory, along with texts that changes according to the current timezone the users in.
 + Home/Forum, 'main feature' of the app, giving users access to interact with each other via posts. Users can give 'likes', 'comments', and 'direct access to the poster's profile'.
