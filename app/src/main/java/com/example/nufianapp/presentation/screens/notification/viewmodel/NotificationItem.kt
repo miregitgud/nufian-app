@@ -19,7 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.nufianapp.data.model.Notification
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.ImageAvatarUrl
 import com.example.nufianapp.ui.theme.Graphite
 

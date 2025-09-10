@@ -15,13 +15,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import com.example.nufianapp.data.model.Forum
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
-import com.example.nufianapp.presentation.core.components.content.ContentResponseNull
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseNull
 
 @Composable
 fun PostScreen(

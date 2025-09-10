@@ -15,7 +15,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.nufianapp.R
 import com.example.nufianapp.data.model.Forum
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.DetailForumButton
 
 @Composable

@@ -36,7 +36,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
 import kotlinx.coroutines.delay
 
 /**

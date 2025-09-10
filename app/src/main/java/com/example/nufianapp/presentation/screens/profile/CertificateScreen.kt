@@ -1,6 +1,5 @@
 package com.example.nufianapp.presentation.screens.profile
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
@@ -22,8 +21,8 @@ import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import com.example.nufianapp.data.model.Certificate
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
-import com.example.nufianapp.presentation.core.components.content.ContentResponseNull
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseNull
 import com.example.nufianapp.presentation.screens.profile.components.CertificateDetailScreen
 import com.example.nufianapp.presentation.screens.profile.components.CertificateItem
 

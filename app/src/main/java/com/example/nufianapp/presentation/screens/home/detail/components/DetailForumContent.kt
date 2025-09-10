@@ -45,13 +45,12 @@ import com.example.nufianapp.R
 import com.example.nufianapp.data.model.Comment
 import com.example.nufianapp.data.model.Forum
 import com.example.nufianapp.data.model.User
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.ButtonIcon
 import com.example.nufianapp.presentation.core.components.CommentButtonState
 import com.example.nufianapp.presentation.core.components.ImageAvatarUrlPreview
 import com.example.nufianapp.presentation.core.components.UserAvatarNameProfile
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
-import com.example.nufianapp.presentation.screens.home.detail.viewmodel.components.CommentItem
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
 import com.example.nufianapp.ui.theme.Blue
 import com.example.nufianapp.ui.theme.Graphite
 import com.google.firebase.firestore.FieldValue

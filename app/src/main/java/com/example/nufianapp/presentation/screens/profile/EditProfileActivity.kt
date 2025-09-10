@@ -35,7 +35,7 @@ import com.example.nufianapp.R
 import com.example.nufianapp.data.model.User
 import com.example.nufianapp.domain.model.Response
 import com.example.nufianapp.presentation.core.components.ButtonIcon
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
 import com.example.nufianapp.presentation.screens.auth.InterestPill
 import com.example.nufianapp.presentation.screens.profile.components.EditTextField
 import com.example.nufianapp.presentation.screens.profile.viewmodel.UserViewModel

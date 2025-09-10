@@ -1,4 +1,4 @@
-package com.example.nufianapp.presentation.screens.home.view.viewmodel.components
+package com.example.nufianapp.presentation.screens.home.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.lazy.LazyRow

@@ -29,7 +29,7 @@ import androidx.compose.ui.zIndex
 import com.example.nufianapp.R
 import com.example.nufianapp.data.model.Forum
 import com.example.nufianapp.data.model.User
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.ButtonIcon
 import com.example.nufianapp.presentation.core.components.UserAvatarNameProfile
 import com.example.nufianapp.presentation.screens.home.components.BlueStyleForumActions

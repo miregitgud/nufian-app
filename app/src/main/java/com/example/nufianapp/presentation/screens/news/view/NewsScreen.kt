@@ -32,11 +32,11 @@ import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.example.nufianapp.R
 import com.example.nufianapp.data.model.News
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.BaseLayoutHome
 import com.example.nufianapp.presentation.core.components.CustomDeleteDialog
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
-import com.example.nufianapp.presentation.core.components.content.ContentResponseNull
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseNull
 import com.example.nufianapp.presentation.screens.home.view.viewmodel.HomeViewModel
 import com.example.nufianapp.presentation.screens.news.view.components.NewsItemHeader
 import com.example.nufianapp.presentation.screens.news.view.viewmodel.NewsItem

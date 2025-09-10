@@ -1,4 +1,4 @@
-package com.example.nufianapp.presentation.screens.home.detail.viewmodel.components
+package com.example.nufianapp.presentation.screens.home.detail.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.combinedClickable
@@ -13,10 +13,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.ripple.rememberRipple
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -28,7 +30,7 @@ import androidx.compose.ui.unit.dp
 import com.example.nufianapp.data.model.Comment
 import com.example.nufianapp.data.model.Forum
 import com.example.nufianapp.data.model.User
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.ImageAvatarUrlPreview
 import com.example.nufianapp.ui.theme.Graphite
 import com.example.nufianapp.ui.theme.NeonWhite
@@ -150,7 +152,7 @@ fun CommentItem(
     }
 
     if (showConfirmDialog) {
-        androidx.compose.material3.AlertDialog(
+        AlertDialog(
             onDismissRequest = { showConfirmDialog = false },
             title = {
                 Text("Delete Comment")
@@ -159,7 +161,7 @@ fun CommentItem(
                 Text("Are you sure you want to delete this comment?")
             },
             confirmButton = {
-                androidx.compose.material3.TextButton(
+                TextButton(
                     onClick = {
                         showConfirmDialog = false
                         onDeleteComment(comment.commentId)
@@ -169,7 +171,7 @@ fun CommentItem(
                 }
             },
             dismissButton = {
-                androidx.compose.material3.TextButton(
+                TextButton(
                     onClick = {
                         showConfirmDialog = false
                     }

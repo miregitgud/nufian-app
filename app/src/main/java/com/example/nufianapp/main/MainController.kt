@@ -27,7 +27,6 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.BlendMode.Companion.Screen
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -52,7 +51,6 @@ import com.example.nufianapp.presentation.screens.onboarding.viewmodel.Onboardin
 import com.example.nufianapp.presentation.screens.profile.ProfileScreen
 import com.example.nufianapp.presentation.screens.profile.viewmodel.UserViewModel
 import com.example.nufianapp.ui.theme.Blue
-import com.example.nufianapp.ui.theme.NeonWhite
 import com.example.nufianapp.R
 import com.example.nufianapp.presentation.screen.settings.SettingActivity
 import com.example.nufianapp.presentation.screens.auth.BannedScreen
@@ -65,7 +63,7 @@ import com.example.nufianapp.presentation.screens.home.view.HomeScreen
 import com.example.nufianapp.presentation.screens.news.add.AddNewsScreen
 import com.example.nufianapp.presentation.screens.news.detail.DetailNewsScreen
 import com.example.nufianapp.presentation.screens.news.view.NewsScreen
-import com.example.nufianapp.presentation.screens.notification.view.NotificationScreen
+import com.example.nufianapp.presentation.screens.notification.NotificationScreen
 import com.example.nufianapp.presentation.screens.profile.AddCertificateScreen
 import com.example.nufianapp.presentation.screens.profile.AddProjectScreen
 import com.example.nufianapp.presentation.screens.profile.components.DetailProject

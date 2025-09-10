@@ -1,4 +1,4 @@
-package com.example.nufianapp.presentation.screens.news.add.components
+package com.example.nufianapp.presentation.screens.news.add
 
 import android.content.Context
 import android.net.Uri

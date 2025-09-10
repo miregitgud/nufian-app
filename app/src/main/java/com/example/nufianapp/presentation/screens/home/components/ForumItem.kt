@@ -1,5 +1,4 @@
-
-package com.example.nufianapp.presentation.screens.home.view.viewmodel.components
+package com.example.nufianapp.presentation.screens.home.components
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.shape.RoundedCornerShape

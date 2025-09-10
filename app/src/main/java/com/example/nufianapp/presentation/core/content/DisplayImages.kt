@@ -1,4 +1,4 @@
-package com.example.nufianapp.presentation.core.components.content
+package com.example.nufianapp.presentation.core.content
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

@@ -33,7 +33,7 @@ import androidx.compose.ui.zIndex
 import com.example.nufianapp.R
 import com.example.nufianapp.data.model.News
 import com.example.nufianapp.data.model.User
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.ButtonIcon
 import com.example.nufianapp.presentation.core.components.ImageContentUrl
 import com.example.nufianapp.ui.theme.Charcoal

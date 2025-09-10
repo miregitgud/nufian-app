@@ -7,7 +7,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.unit.dp
 import com.example.nufianapp.data.model.ForumCategory
-import com.example.nufianapp.presentation.screens.home.view.viewmodel.components.ForumCategoryItem
+import com.example.nufianapp.presentation.screens.home.components.ForumCategoryItem
 
 @Composable
 fun AddItemCategorySelection(

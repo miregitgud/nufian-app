@@ -1,4 +1,4 @@
-package com.example.nufianapp.presentation.core.components.content
+package com.example.nufianapp.presentation.core.content
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandIn

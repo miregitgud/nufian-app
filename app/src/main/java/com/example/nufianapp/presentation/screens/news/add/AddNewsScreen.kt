@@ -22,7 +22,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.nufianapp.data.model.News
-import com.example.nufianapp.presentation.screens.news.add.components.AddNewsContent
 import com.example.nufianapp.presentation.screens.news.add.viewmodel.AddNews
 import com.example.nufianapp.presentation.screens.news.add.viewmodel.AddNewsViewModel
 import kotlinx.coroutines.launch

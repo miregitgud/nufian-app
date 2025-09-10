@@ -16,8 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.example.nufianapp.domain.model.Response
-import com.example.nufianapp.presentation.core.components.content.ContentResponseError
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseError
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
 import com.example.nufianapp.presentation.screens.home.detail.components.DetailContent
 import com.example.nufianapp.presentation.screens.home.detail.viewmodel.DetailForumViewModel
 import com.example.nufianapp.presentation.screens.profile.viewmodel.UserViewModel

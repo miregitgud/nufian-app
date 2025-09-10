@@ -5,8 +5,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.nufianapp.domain.model.Response
-import com.example.nufianapp.presentation.core.Utils.Companion.showMessage
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
+import com.example.nufianapp.utils.Utils.Companion.showMessage
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
 import com.example.nufianapp.presentation.screens.profile.viewmodel.AddCertificateViewModel
 
 @Composable

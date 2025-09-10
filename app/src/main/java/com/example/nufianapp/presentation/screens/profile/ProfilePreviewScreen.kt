@@ -18,7 +18,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.nufianapp.domain.model.Response
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
 import com.example.nufianapp.presentation.screens.profile.components.ProfileContent
 import com.example.nufianapp.presentation.screens.profile.viewmodel.UserViewModel
 

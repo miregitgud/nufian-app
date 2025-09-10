@@ -1,4 +1,4 @@
-package com.example.nufianapp.presentation.screens.notification.view
+package com.example.nufianapp.presentation.screens.notification
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
@@ -30,10 +31,10 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.ButtonIcon
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
-import com.example.nufianapp.presentation.core.components.content.ContentResponseNull
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseNull
 import com.example.nufianapp.presentation.screens.notification.viewmodel.NotificationItem
 import com.example.nufianapp.presentation.screens.notification.viewmodel.NotificationViewModel
 import com.example.nufianapp.ui.theme.Red
@@ -125,7 +126,7 @@ fun NotificationScreen(
     }
 
     if (showConfirmDialog) {
-        androidx.compose.material3.AlertDialog(
+        AlertDialog(
             onDismissRequest = { showConfirmDialog = false },
             title = {
                 Text(

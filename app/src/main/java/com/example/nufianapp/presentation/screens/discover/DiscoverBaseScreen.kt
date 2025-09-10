@@ -39,13 +39,13 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.example.nufianapp.presentation.core.Constants.IMAGES_PATTERN
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.presentation.core.components.BaseLayoutHome
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
-import com.example.nufianapp.presentation.core.components.content.ContentResponseNull
+import com.example.nufianapp.presentation.core.content.ContentResponseLoading
+import com.example.nufianapp.presentation.core.content.ContentResponseNull
 import com.example.nufianapp.presentation.screens.discover.components.ConnectItemHeadline
 import com.example.nufianapp.presentation.screens.discover.viewmodel.ConnectUserViewModel
-import com.example.nufianapp.presentation.screens.discover.viewmodel.item.ConnectItem
+import com.example.nufianapp.presentation.screens.discover.components.ConnectItem
 import com.example.nufianapp.ui.theme.Charcoal
 import com.example.nufianapp.ui.theme.DisabledColor
 import com.example.nufianapp.ui.theme.NeonWhite

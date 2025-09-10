@@ -24,7 +24,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.nufianapp.R
 import com.example.nufianapp.data.model.Forum
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.ui.theme.Blue
 import com.example.nufianapp.ui.theme.DisabledColor
 import com.example.nufianapp.ui.theme.White

@@ -18,7 +18,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import com.example.nufianapp.data.model.Certificate
-import com.example.nufianapp.presentation.core.components.content.EnlargedImageDialog
+import com.example.nufianapp.presentation.core.content.EnlargedImageDialog
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

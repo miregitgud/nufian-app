@@ -1,18 +1,15 @@
-package com.example.nufianapp.presentation.core
+package com.example.nufianapp.utils
 
-import android.content.ContentValues.TAG
+import android.content.ContentValues
 import android.content.Context
 import android.util.Log
-import android.widget.Toast.LENGTH_LONG
-import android.widget.Toast.makeText
+import android.widget.Toast
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Color.Companion.Magenta
 import androidx.compose.ui.unit.dp
 import com.example.nufianapp.ui.theme.Blue
 import com.example.nufianapp.ui.theme.Charcoal
@@ -20,21 +17,19 @@ import com.example.nufianapp.ui.theme.ClearBlue
 import com.example.nufianapp.ui.theme.DarkGreen
 import com.example.nufianapp.ui.theme.DisabledColor
 import com.example.nufianapp.ui.theme.Orange
-import com.example.nufianapp.ui.theme.Purple
 import com.example.nufianapp.ui.theme.Red
 import com.example.nufianapp.ui.theme.Tosca
 import com.example.nufianapp.ui.theme.TwitchPurple
-import com.example.nufianapp.ui.theme.Yellow
 import java.util.Date
 
 class Utils {
     companion object {
-        fun print(e: Exception) = Log.e(TAG, e.stackTraceToString())
+        fun print(e: Exception) = Log.e(ContentValues.TAG, e.stackTraceToString())
 
         fun showMessage(
             context: Context,
             message: String?
-        ) = makeText(context, message, LENGTH_LONG).show()
+        ) = Toast.makeText(context, message, Toast.LENGTH_LONG).show()
     }
 
     fun calculateTimeAgo(dateTime: Date): String {
@@ -68,7 +63,7 @@ class Utils {
             "Discussion" -> Blue
             "Recruit/Collab" -> TwitchPurple
             "Fluff" -> Tosca
-            "Shout out" -> Magenta
+            "Shout out" -> Color.Companion.Magenta
             "Showcase" -> DarkGreen
             "Tips & Tricks" -> ClearBlue
             else -> DisabledColor
@@ -77,37 +72,37 @@ class Utils {
 
 
     @Composable
-    fun SpacerHeightVeryLarge(modifier: Modifier = Modifier) {
+    fun SpacerHeightVeryLarge(modifier: Modifier = Modifier.Companion) {
         Spacer(modifier = modifier.height(48.dp))
     }
 
     @Composable
-    fun SpacerHeightLarge(modifier: Modifier = Modifier) {
+    fun SpacerHeightLarge(modifier: Modifier = Modifier.Companion) {
         Spacer(modifier = modifier.height(32.dp))
     }
 
     @Composable
-    fun SpacerHeightMedium(modifier: Modifier = Modifier) {
+    fun SpacerHeightMedium(modifier: Modifier = Modifier.Companion) {
         Spacer(modifier = modifier.height(16.dp))
     }
 
     @Composable
-    fun SpacerHeightSmall(modifier: Modifier = Modifier) {
+    fun SpacerHeightSmall(modifier: Modifier = Modifier.Companion) {
         Spacer(modifier = modifier.height(8.dp))
     }
 
     @Composable
-    fun SpacerHeightVerySmall(modifier: Modifier = Modifier) {
+    fun SpacerHeightVerySmall(modifier: Modifier = Modifier.Companion) {
         Spacer(modifier = modifier.height(4.dp))
     }
 
     @Composable
-    fun SpacerWidthMedium(modifier: Modifier = Modifier) {
+    fun SpacerWidthMedium(modifier: Modifier = Modifier.Companion) {
         Spacer(modifier = modifier.width(16.dp))
     }
 
     @Composable
-    fun SpacerWidthSmall(modifier: Modifier = Modifier) {
+    fun SpacerWidthSmall(modifier: Modifier = Modifier.Companion) {
         Spacer(modifier = modifier.width(8.dp))
     }
 }

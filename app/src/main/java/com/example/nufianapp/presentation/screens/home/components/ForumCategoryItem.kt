@@ -1,6 +1,5 @@
-package com.example.nufianapp.presentation.screens.home.view.viewmodel.components
+package com.example.nufianapp.presentation.screens.home.components
 
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
@@ -12,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nufianapp.data.model.ForumCategory
-import com.example.nufianapp.presentation.core.Utils
+import com.example.nufianapp.utils.Utils
 import com.example.nufianapp.ui.theme.NeonWhite
 
 @Composable

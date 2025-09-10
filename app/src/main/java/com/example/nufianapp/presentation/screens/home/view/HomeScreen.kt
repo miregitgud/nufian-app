@@ -38,13 +38,13 @@ import com.example.nufianapp.data.model.Project
 import com.example.nufianapp.presentation.core.PullToRefreshLazyColumn
 import com.example.nufianapp.presentation.core.components.BaseLayoutHome
 import com.example.nufianapp.presentation.core.components.CustomDeleteDialog
-import com.example.nufianapp.presentation.core.components.content.ContentResponseNull
+import com.example.nufianapp.presentation.core.content.ContentResponseNull
 import com.example.nufianapp.presentation.screens.home.view.components.HomeItemAnimatedText
 import com.example.nufianapp.presentation.screens.home.view.components.HomeItemCategoryHeader
 import com.example.nufianapp.presentation.screens.home.view.components.WelcomeScreen
 import com.example.nufianapp.presentation.screens.home.view.viewmodel.HomeViewModel
-import com.example.nufianapp.presentation.screens.home.view.viewmodel.components.CategoryList
-import com.example.nufianapp.presentation.screens.home.view.viewmodel.components.ForumItem
+import com.example.nufianapp.presentation.screens.home.components.CategoryList
+import com.example.nufianapp.presentation.screens.home.components.ForumItem
 import com.example.nufianapp.presentation.screens.profile.viewmodel.PostViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

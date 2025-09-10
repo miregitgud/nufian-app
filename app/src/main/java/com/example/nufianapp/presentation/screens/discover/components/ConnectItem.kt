@@ -1,4 +1,4 @@
-package com.example.nufianapp.presentation.screens.discover.viewmodel.item
+package com.example.nufianapp.presentation.screens.discover.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
