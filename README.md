@@ -5,7 +5,7 @@
 
 The community of Sekolah Tinggi Teknologi Terpadu Nurul Fikri (STT-NF) continues to grow along with the increasing number of students and alumni; however, internal communication still faces challenges. Platforms such as Telegram groups and websites have not been effective in reaching all members, especially in terms of interaction across departments and academic cohorts. On the other hand, the high usage of smartphones in Indonesia presents an opportunity to build a mobile-based community platform. This research designs an Android-based mobile community application developed using the Design Thinking approach and the Extreme Programming methodology. The application features onboarding, forums, notifications, search, news, and profile management, and is integrated with Firebase. Black-box testing showed that all 59 test scenarios ran successfully. Usability testing with 12 users–consisting of seven students and five alumni–also indicated positive responses, particularly toward the forum, search, and notification features. With a total of 101 positive responses out of 108 received across the nine available features, this application is expected to serve as an integrated communication solution and a foundation for future development of a unified STT-NF system.
 
-Nufian Connect is a community-based mobile application that aims to solve problems in communications and informations faced by students and alumni alike. This app is based on Kotlin and uses Firebase backend services.
+Nufian Connect is a community-based mobile application that aims to solve problems in communications and informations faced by students and alumni alike. This app is based on `Kotlin` and utilizes `Firebase backend services.`
 
 ## Features
 + Onboarding, Welcomes new users to the app, contains brief description and text about the app and it's goals.
@@ -25,7 +25,7 @@ Prototype of the app can be accessed through the link below:
 
 ## Demo
 
-Due to privacy reasons and limited database quota, currently there are no build available for public yet. 
+Due to privacy reasons and limited database quota, currently there are `no build available for public yet.` Though an app demo is possible through a very limited access and strict policy.
 
 ## Known Issues
 
