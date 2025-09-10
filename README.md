@@ -7,6 +7,16 @@ The community of Sekolah Tinggi Teknologi Terpadu Nurul Fikri (STT-NF) continues
 
 Nufian Connect is a community-based mobile application that aims to solve problems in communications and informations faced by students and alumni alike. This app is based on Kotlin and uses Firebase backend services.
 
+## Features
++ Onboarding, Welcomes new users to the app, contains brief description and text about the app and it's goals.
++ Authentication, utilizes 'firebase authentication' and secure registering logics, ensuring each accounts are meant only for the desired users.
++ Profile Creation, giving access to newly registered users to complete their profiles with, but not limited to, mandatory identification.
++ Welcome screen, pretty self mandatory, along with texts that changes according to the current timezone the users in.
++ Home/Forum, 'main feature' of the app, giving users access to interact with each other via posts. Users can give 'likes', 'comments', and 'direct access to the poster's profile'.
++ Discover, list of available users registered, along with a search bar.
++ News, currently manually fetched, this feature gives users access to the latest news 'nurulfikri.ac.id' can offer.
++ Profile, serves as the face of every user, it allows user to upload profile pictures, upload projects, certificates, and edit their profiles with ease.
+
 ## Prototype
 
 Prototype of the app can be accessed through the link below:
@@ -17,9 +27,19 @@ Prototype of the app can be accessed through the link below:
 
 Due to privacy reasons and limited database quota, currently there are no build available for public yet. 
 
+## Known Issues
+
++ Some visual glitches on the main screen on some Xiaomi devices, rendering the animation moves rapidly faster than it should.
++ State switching bug when switching account without restarting the app, giving all the desired permission on the previous logged in account, but not the current one.
++ Image and data caching not working as intended, making the app load the exact same thing over and over.
+
+
 ## Future plans (priorities based on the list)
 
++ Fixing all the known issues, especially the 'state switching bug.'
 + Allowing publics to access using a restricted account that only allows them to access certain posts and features.
++ Improves visual and entire user experience of the 'Discover' feature, which, currently known, is very lacking.
++ Automatically fetches news data from the official STT Terpadu Nurul Fikri's website 'nurulfikri.ac.id'.
 + Under the recommendation of STT Terpadu Nurul Fikri's Rector, Dr. Lukman Rosyidi, S.T., M.M., M.T. and my Thesis Supervisor, Ahmad Rio Adriansyah, S.Si. M.Si., this app is planned to be integrated to the campus online systems and released on Google Play Store
 + Adding much more features such as chats (WIP), Near me locator for users, search based on categories and so on.
 
