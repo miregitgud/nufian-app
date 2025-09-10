@@ -2,8 +2,8 @@ package com.example.nufianapp.presentation.screens.splash.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.nufianapp.data.repository.AuthRepository
-import com.example.nufianapp.data.repository.UserRepository
+import com.example.nufianapp.domain.repository.AuthRepository
+import com.example.nufianapp.domain.repository.UserRepository
 import com.example.nufianapp.data.store.DataStoreRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

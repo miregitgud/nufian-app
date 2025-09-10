@@ -6,7 +6,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.nufianapp.data.model.Certificate
-import com.example.nufianapp.data.repository.CertificateRepository
+import com.example.nufianapp.domain.repository.CertificateRepository
 import com.example.nufianapp.domain.model.ErrorUtils
 import com.example.nufianapp.domain.model.Response
 import dagger.hilt.android.lifecycle.HiltViewModel

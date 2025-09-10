@@ -1,4 +1,4 @@
-package com.example.nufianapp.data.repository
+package com.example.nufianapp.domain.repository
 
 import androidx.paging.PagingData
 import com.example.nufianapp.data.model.Certificate

@@ -5,8 +5,8 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.example.nufianapp.data.model.User
-import com.example.nufianapp.data.repository.ConnectRepository
-import com.example.nufianapp.data.repository.UserRepository
+import com.example.nufianapp.domain.repository.ConnectRepository
+import com.example.nufianapp.domain.repository.UserRepository
 import com.example.nufianapp.domain.model.Response
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers

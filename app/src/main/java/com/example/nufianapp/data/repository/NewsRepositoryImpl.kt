@@ -7,6 +7,7 @@ import com.example.nufianapp.data.model.News
 import com.example.nufianapp.data.util.DataPreparer
 import com.example.nufianapp.domain.model.ErrorUtils
 import com.example.nufianapp.domain.model.Response
+import com.example.nufianapp.domain.repository.NewsRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

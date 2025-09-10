@@ -3,7 +3,7 @@ package com.example.nufianapp.presentation.screens.discover.viewmodel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.nufianapp.data.model.User
-import com.example.nufianapp.data.repository.ConnectRepository
+import com.example.nufianapp.domain.repository.ConnectRepository
 import com.example.nufianapp.domain.model.Response
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

@@ -10,19 +10,16 @@ import androidx.lifecycle.viewModelScope
 import com.example.nufianapp.data.firebase.FireStoreHelper
 import com.example.nufianapp.data.firebase.FirebaseModule.firestore
 import com.example.nufianapp.data.model.User
-import com.example.nufianapp.data.repository.UserRepository
+import com.example.nufianapp.domain.repository.UserRepository
 import com.example.nufianapp.domain.model.Response
 import com.example.nufianapp.presentation.core.ImageHelper
-import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.firestore.firestore
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.tasks.await
 import javax.inject.Inject
 
 @HiltViewModel

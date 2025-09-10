@@ -1,4 +1,4 @@
-package com.example.nufianapp.data.repository
+package com.example.nufianapp.domain.repository
 
 import com.example.nufianapp.domain.model.Response
 import com.google.firebase.auth.FirebaseUser

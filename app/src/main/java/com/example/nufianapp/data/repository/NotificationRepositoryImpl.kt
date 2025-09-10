@@ -6,6 +6,8 @@ import androidx.paging.PagingData
 import com.example.nufianapp.data.firebase.FireStoreHelper
 import com.example.nufianapp.data.model.Notification
 import com.example.nufianapp.domain.model.Response
+import com.example.nufianapp.domain.repository.NotificationRepository
+import com.example.nufianapp.domain.repository.UserRepository
 import com.google.auth.oauth2.GoogleCredentials
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers

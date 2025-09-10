@@ -7,8 +7,8 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.nufianapp.data.model.News
-import com.example.nufianapp.data.repository.NewsRepository
-import com.example.nufianapp.data.repository.NotificationRepository
+import com.example.nufianapp.domain.repository.NewsRepository
+import com.example.nufianapp.domain.repository.NotificationRepository
 import com.example.nufianapp.domain.model.ErrorUtils
 import com.example.nufianapp.domain.model.Response
 import dagger.hilt.android.lifecycle.HiltViewModel

@@ -8,6 +8,9 @@ import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import kotlinx.coroutines.CoroutineScope
 import com.example.nufianapp.domain.model.Response.Failure
 import com.example.nufianapp.domain.model.Response.Success
+import com.example.nufianapp.domain.repository.AuthRepository
+import com.example.nufianapp.domain.repository.SignUpResponse
+import com.example.nufianapp.domain.repository.UserRepository
 import com.google.firebase.messaging.FirebaseMessaging
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.awaitClose

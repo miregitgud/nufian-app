@@ -7,8 +7,8 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import androidx.paging.map
 import com.example.nufianapp.data.model.Certificate
-import com.example.nufianapp.data.repository.CertificateRepository
-import com.example.nufianapp.data.repository.UserRepository
+import com.example.nufianapp.domain.repository.CertificateRepository
+import com.example.nufianapp.domain.repository.UserRepository
 import com.example.nufianapp.domain.model.Response
 import com.example.nufianapp.presentation.core.GlideImageLoader
 import dagger.hilt.android.lifecycle.HiltViewModel

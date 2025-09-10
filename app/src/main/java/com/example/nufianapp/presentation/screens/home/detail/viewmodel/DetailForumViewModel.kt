@@ -9,9 +9,9 @@ import androidx.paging.map
 import com.example.nufianapp.data.model.Comment
 import com.example.nufianapp.data.model.Forum
 import com.example.nufianapp.data.model.User
-import com.example.nufianapp.data.repository.ForumRepository
-import com.example.nufianapp.data.repository.NotificationRepository
-import com.example.nufianapp.data.repository.UserRepository
+import com.example.nufianapp.domain.repository.ForumRepository
+import com.example.nufianapp.domain.repository.NotificationRepository
+import com.example.nufianapp.domain.repository.UserRepository
 import com.example.nufianapp.domain.model.ErrorUtils
 import com.example.nufianapp.domain.model.Response
 import dagger.hilt.android.lifecycle.HiltViewModel

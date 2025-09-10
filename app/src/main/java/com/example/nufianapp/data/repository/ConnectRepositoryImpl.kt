@@ -5,6 +5,7 @@ import com.example.nufianapp.data.firebase.FireStoreHelper
 import com.example.nufianapp.data.model.User
 import com.example.nufianapp.domain.model.ErrorUtils
 import com.example.nufianapp.domain.model.Response
+import com.example.nufianapp.domain.repository.ConnectRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

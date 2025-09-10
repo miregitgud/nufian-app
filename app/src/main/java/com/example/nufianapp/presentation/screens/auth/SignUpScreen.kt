@@ -30,10 +30,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.nufianapp.R
 import com.example.nufianapp.presentation.screens.auth.viewmodel.AuthViewModel
 import com.example.nufianapp.ui.theme.*
-import com.google.firebase.auth.FirebaseAuth
 import android.widget.Toast
-import kotlinx.coroutines.delay
-import java.util.concurrent.TimeUnit
 
 @Composable
 fun SignUpScreen(

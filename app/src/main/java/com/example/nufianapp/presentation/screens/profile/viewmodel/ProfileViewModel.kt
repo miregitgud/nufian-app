@@ -5,9 +5,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.nufianapp.data.repository.AuthRepository
-import com.example.nufianapp.data.repository.ReloadUserResponse
-import com.example.nufianapp.data.repository.RevokeAccessResponse
+import com.example.nufianapp.domain.repository.AuthRepository
+import com.example.nufianapp.domain.repository.ReloadUserResponse
+import com.example.nufianapp.domain.repository.RevokeAccessResponse
 import com.example.nufianapp.domain.model.Response.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch

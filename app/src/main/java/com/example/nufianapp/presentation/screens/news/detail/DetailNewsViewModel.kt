@@ -3,7 +3,7 @@ package com.example.nufianapp.presentation.screens.news.detail
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.nufianapp.data.model.News
-import com.example.nufianapp.data.repository.NewsRepository
+import com.example.nufianapp.domain.repository.NewsRepository
 import com.example.nufianapp.domain.model.Response
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

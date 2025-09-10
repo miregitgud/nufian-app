@@ -7,11 +7,10 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import androidx.paging.map
 import com.example.nufianapp.data.model.News
-import com.example.nufianapp.data.repository.NewsRepository
-import com.example.nufianapp.data.repository.UserRepository
+import com.example.nufianapp.domain.repository.NewsRepository
+import com.example.nufianapp.domain.repository.UserRepository
 import com.example.nufianapp.domain.model.Response
 import com.example.nufianapp.presentation.core.GlideImageLoader
-import com.example.nufianapp.presentation.core.components.content.ContentResponseLoading
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers

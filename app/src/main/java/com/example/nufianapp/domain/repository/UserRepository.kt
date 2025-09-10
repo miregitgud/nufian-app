@@ -1,4 +1,4 @@
-package com.example.nufianapp.data.repository
+package com.example.nufianapp.domain.repository
 
 import android.net.Uri
 import com.example.nufianapp.data.model.User

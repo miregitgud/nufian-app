@@ -6,6 +6,7 @@ import com.example.nufianapp.data.firebase.FireStoreHelper
 import com.example.nufianapp.data.firebase.FirebaseModule.firestore
 import com.example.nufianapp.data.model.User
 import com.example.nufianapp.domain.model.Response
+import com.example.nufianapp.domain.repository.UserRepository
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
