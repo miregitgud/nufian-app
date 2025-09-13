@@ -30,7 +30,7 @@ Due to privacy reasons and limited database quota, currently there are `no build
 ## Known Issues
 
 + Some visual glitches on the main screen on some `Xiaomi devices`, rendering the animation moves rapidly faster than it should.
-+ `State switching bug` when switching account without restarting the app, giving all the desired permission on the previous logged in account, but not the current one.
++ `State switching bug` when switching account without restarting the app, giving all the desired permission on the previous logged in account, but not the current one. This however can be easily solved by relaunching the app.
 + Image and data caching not working as intended, making the app load the exact same thing over and over.
 
 
